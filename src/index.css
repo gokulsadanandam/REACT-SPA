@@ -1,0 +1,12 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  margin : 0px!important;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+
+#root{
+	height: 100%;
+	width: 100%;
+}

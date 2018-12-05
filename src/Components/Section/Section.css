@@ -1,0 +1,75 @@
+.Section{
+	height: 95%;
+	display:flex;
+	flex-flow: row
+}
+
+.Nav-Show{
+	height: 100%;
+	width: 20%;
+	display: flex;
+	flex-flow: column;
+}
+
+.Nav-Hide{
+	width: 0px;
+	height: 100%;
+	transition: width 0.5s
+}
+
+
+
+.Content-Show{
+	background-color: yellow;
+	height: 100%;
+	width: 90%;
+	transition: width 0.5s
+
+}
+
+.Content-Hide{
+	background-color: yellow;
+	height: 100%;
+	width: 100%;
+	transition: width 0.5s
+
+}
+
+
+/* -------------------------------------------- NAV HEADER -------------------------------------------------------- */
+
+.NavHeader{
+	background-color:rgb(248,248,248);
+	padding: 10px;
+	height: 5%;
+	color: black;
+	border-color: white;
+	font-weight: 20px
+}
+
+.NavHeader span{
+	font-size: 25px
+}
+
+.NavHeader img{
+	height: 100%;
+	float: right;
+
+}
+
+.NavHeader img:hover{
+	background-color: rgb(220,220,220,0.8);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/*------------------------------------- Nav Content -------------------------------------------------------------*/
+
+.NavContent{
+	/*border-style: solid;*/
+	height: 95%;
+	/*border-radius: 5px;*/
+	margin:5px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------*/
