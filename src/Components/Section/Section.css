@@ -45,14 +45,14 @@
 
 /*--------------------------------------------- Content -----------------------------------------------------------*/
 
-.Content-Show{
+.Content-Hide{
 	background-color: yellow;
 	height: 100%;
 	width: 90%;
 	transition: width 0.5s;
 }
 
-.Content-Hide{
+.Content-Show{
 	background-color: yellow;
 	height: 100%;
 	width: 100%;
@@ -63,10 +63,17 @@
 
 .Content-Header{
 	height: 5%;
-	width: 100%;
 	padding: 10px;
-	background-color: red
+	background-color: black;
+	color:white;
 }
+
+.Content-Header span{
+	float: right;
+	font-size: 25px;
+}
+
+
 
 
 
@@ -76,3 +83,4 @@
 	height: 90%;
 	width: 100%;
 }
+

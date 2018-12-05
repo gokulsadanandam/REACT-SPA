@@ -27,9 +27,10 @@ class Section extends Component {
 				<div className={ this.state.toggle ? "Nav-Show" : "Nav-Hide"}>
 					<NavHeader clickHandle=  {this.toggleNav } />
 				</div>
-				<div className={ this.state.toggle ? "Content-Show" : "Content-Hide"}>
+				<div className={ this.state.toggle ? "Content-Hide" : "Content-Show"}>
 					<div className="Content-Header">
 					 	<img src= {Navicon} className={ this.state.toggle ? "Icon-Hide" : "Icon-Show"} onClick = {this.toggleNav} />
+					 	<span>Welcome to MyApp</span>
 					</div>
 				</div>
 			</div>
