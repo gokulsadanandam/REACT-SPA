@@ -1,12 +1,13 @@
 import React , { Component } from 'react'
 import './Section.css'
-import Arrow from './arrow-left.svg'
+import NavHeader from '../NavHeader/NavHeader'
+import Navicon from './NavIcon.svg'
+import Header from '../Header/Header'
 
 class Section extends Component {
 
 	constructor(){
 		super()
-		console.log(this)
 		this.state = {
 			toggle : true
 		}
@@ -21,19 +22,15 @@ class Section extends Component {
 
 	render(){
 
-		
-
 		return(
 			<div className="Section">
 				<div className={ this.state.toggle ? "Nav-Show" : "Nav-Hide"}>
-					<div className="NavHeader">
-						<span>My App</span>
-						<img onClick = { this.toggleNav } src={Arrow} alt="Hide Me!"/>
-					</div>
-					<div className="NavContent">
-					</div>
+					<NavHeader clickHandle=  {this.toggleNav } />
 				</div>
 				<div className={ this.state.toggle ? "Content-Show" : "Content-Hide"}>
+					<div className="Content-Header">
+					 	<img src= {Navicon} className={ this.state.toggle ? "Icon-Hide" : "Icon-Show"} onClick = {this.toggleNav} />
+					</div>
 				</div>
 			</div>
 			)

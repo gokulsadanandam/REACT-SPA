@@ -1,14 +1,20 @@
+/*------------------------------------- Main Section --------------------------------------------------------------*/
+
 .Section{
 	height: 95%;
 	display:flex;
 	flex-flow: row
 }
 
+/*----------------------------------------------Nav Bar------------------------------------------------------------*/
+
 .Nav-Show{
 	height: 100%;
 	width: 20%;
 	display: flex;
 	flex-flow: column;
+	transition: width 0.5s
+	
 }
 
 .Nav-Hide{
@@ -17,14 +23,33 @@
 	transition: width 0.5s
 }
 
+/*------------------------------------- Nav Content -------------------------------------------------------------*/
 
+.NavContent{
+	height: 95%;
+	margin:5px;
+}
+
+/*--------------------------------------------- Icon -------------------------------------------------------- */
+
+.Icon-Hide{
+	display: none;
+}
+
+.Icon-Show{
+	display: inline;
+	width: 5%;
+	height: 100%;
+	cursor: pointer;
+}
+
+/*--------------------------------------------- Content -----------------------------------------------------------*/
 
 .Content-Show{
 	background-color: yellow;
 	height: 100%;
 	width: 90%;
-	transition: width 0.5s
-
+	transition: width 0.5s;
 }
 
 .Content-Hide{
@@ -32,44 +57,22 @@
 	height: 100%;
 	width: 100%;
 	transition: width 0.5s
-
 }
 
+/*---------------------------------------- Content Header ---------------------------------------------------------*/
 
-/* -------------------------------------------- NAV HEADER -------------------------------------------------------- */
-
-.NavHeader{
-	background-color:rgb(248,248,248);
-	padding: 10px;
+.Content-Header{
 	height: 5%;
-	color: black;
-	border-color: white;
-	font-weight: 20px
+	width: 100%;
+	padding: 10px;
+	background-color: red
 }
 
-.NavHeader span{
-	font-size: 25px
+
+
+/*----------------------------------------- Content Section -------------------------------------------------------*/
+
+.Content-Section{
+	height: 90%;
+	width: 100%;
 }
-
-.NavHeader img{
-	height: 100%;
-	float: right;
-
-}
-
-.NavHeader img:hover{
-	background-color: rgb(220,220,220,0.8);
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-/*------------------------------------- Nav Content -------------------------------------------------------------*/
-
-.NavContent{
-	/*border-style: solid;*/
-	height: 95%;
-	/*border-radius: 5px;*/
-	margin:5px;
-}
-
-/*-----------------------------------------------------------------------------------------------------------------*/

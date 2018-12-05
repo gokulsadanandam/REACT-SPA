@@ -1,6 +1,7 @@
 .Footer{
 	height: 5%;
-	background-color: blue
-
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bolder;
 
 }
