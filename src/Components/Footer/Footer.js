@@ -7,7 +7,7 @@ class Footer extends Component {
 
 		return(
 			<div className="Footer">
-				&copy; Gokul Sadanandam
+				WIP
 			</div>
 
 			)

@@ -1,0 +1,10 @@
+.NavContent-Tile{
+	padding: 8px;
+	font-size:20px;
+	cursor: pointer;
+}
+
+.NavContent-Tile a{
+	text-decoration: none!important;
+	color:white;	
+}

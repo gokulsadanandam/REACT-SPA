@@ -1,9 +1,9 @@
 /*------------------------------------- Main Section --------------------------------------------------------------*/
 
 .Section{
-	height: 95%;
+	height: 100%;
 	display:flex;
-	flex-flow: row
+	flex-flow: row;
 }
 
 /*----------------------------------------------Nav Bar------------------------------------------------------------*/
@@ -13,22 +13,28 @@
 	width: 20%;
 	display: flex;
 	flex-flow: column;
-	transition: width 0.5s
+	transition: width 0.3s;
+	background-color: #222222
 	
 }
 
 .Nav-Hide{
 	width: 0px;
 	height: 100%;
-	transition: width 0.5s
+	transition: width 0.3s
 }
 
 /*------------------------------------- Nav Content -------------------------------------------------------------*/
 
 .NavContent{
-	height: 95%;
+	height: 80%;
 	margin:5px;
+	color:white;
+	text-align: left;
+	padding: 10px
 }
+
+
 
 /*--------------------------------------------- Icon -------------------------------------------------------- */
 
@@ -46,17 +52,15 @@
 /*--------------------------------------------- Content -----------------------------------------------------------*/
 
 .Content-Hide{
-	background-color: yellow;
 	height: 100%;
 	width: 90%;
-	transition: width 0.5s;
+	transition: width 0.3s;
 }
 
 .Content-Show{
-	background-color: yellow;
 	height: 100%;
 	width: 100%;
-	transition: width 0.5s
+	transition: width 0.3s
 }
 
 /*---------------------------------------- Content Header ---------------------------------------------------------*/
@@ -73,14 +77,10 @@
 	font-size: 25px;
 }
 
-
-
-
-
 /*----------------------------------------- Content Section -------------------------------------------------------*/
 
 .Content-Section{
 	height: 90%;
 	width: 100%;
+	padding: 5px 0px 5px 0px
 }
-
